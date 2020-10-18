@@ -42,7 +42,19 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Examples\DecoratorExample.cs" />
+    <Compile Include="Examples\DecoratorPattern\CarComponent.cs" />
+    <Compile Include="Examples\DecoratorPattern\Decorators\ClimatisationDecorator.cs" />
+    <Compile Include="Examples\DecoratorPattern\Decorators\HeatedSeatDecorator.cs" />
+    <Compile Include="Examples\DecoratorPattern\IComponent.cs" />
+    <Compile Include="Examples\DecoratorPattern\Components\PeugeotCarComponent.cs" />
+    <Compile Include="Examples\DecoratorPattern\Components\RenaultCarComponent.cs" />
+    <Compile Include="Examples\DecoratorPattern\Components\VolkswagenCarComponent.cs" />
+    <Compile Include="Examples\DecoratorPattern\IDecorator.cs" />
+    <Compile Include="Examples\DecoratorPattern\Decorators\LeatherSeatDecorator.cs" />
+    <Compile Include="Examples\DecoratorPattern\Decorators\SpareWheelDecorator.cs" />
     <Compile Include="Examples\IDesignPatternExample.cs" />
+    <Compile Include="Examples\ObserverExample.cs" />
     <Compile Include="Examples\StateExample.cs" />
     <Compile Include="Examples\StatePattern\States\ClosedBarrierState.cs" />
     <Compile Include="Examples\StatePattern\IParkingBarrierState.cs" />
@@ -72,6 +84,8 @@
   <ItemGroup>
     <None Include="App.config" />
   </ItemGroup>
-  <ItemGroup />
+  <ItemGroup>
+    <Folder Include="Examples\Observer\" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

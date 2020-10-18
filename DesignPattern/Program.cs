@@ -10,8 +10,8 @@ namespace DesignPattern
 
             Console.WriteLine("Tapez 0 pour le design pattern Strategy");
             Console.WriteLine("Tapez 1 pour le design pattern State");
-            //Console.WriteLine("Tapez 2 pour le design pattern Decorator");
-            //Console.WriteLine("Tapez 3 pour le design pattern Observer");
+            Console.WriteLine("Tapez 2 pour le design pattern Decorator");
+            Console.WriteLine("Tapez 3 pour le design pattern Observer");
             //Console.WriteLine("Tapez 4 pour le design pattern Factory");
             //Console.WriteLine("Tapez 5 pour le design pattern Builder");
             //Console.WriteLine("Tapez 6 pour le design pattern Prototype");
@@ -46,10 +46,10 @@ namespace DesignPattern
                     pattern = new StateExample();
                     break;
                 case "2":
-                    //pattern = new DecoratorExample();
+                    pattern = new DecoratorExample();
                     break;
                 case "3":
-                    //pattern = new ObserverExample();
+                    pattern = new ObserverExample();
                     break;
                 case "4":
                     //pattern = new FactoryExample();
